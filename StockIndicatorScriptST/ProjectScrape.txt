@@ -1,0 +1,31 @@
+Build  Me A Program/System In Python to Scrape CandleStick Data and Calculate Indicator Data to be collected .csv
+
+Hello,
+
+I am looking for a programmer to make me a system that will scrape candle data from Tradingview.com for particular token names and then use the data collected to calculate specific indicator data using TA-lib.
+
+If you think you can do this job, please connect.
+
+Project Requirements:
+Two different programs run simultaneously, one to collect the specific candlestick data, and one to process the specific candlestick data.
+
+1. The program that collects the data will first receive these specific input requirements in order(the user needs to be able to enter in unique fields this each time the program is ran):
+- Stock/Token Name
+- Time Frame (Month, Week, Day, Hour, Minute)
+- Date History (How Many Candles Far Back We are Looking (12 Months, 6 Months, 3 Months, 30 Days, etc.)
+- Indicator Choice (All Indicators are available on Ta Lib's website under "Function List" & Some Personal Custom Indicators that I will provide custom source code for).
+- OptionionalIndicatorArguments (Arguments that need a specified value before the program can run(varies from indicator to indicator))
+
+2. After the program collects the specific candle data based on the information above, it will save that data and then will perform a calculation for each indicator that we selected above separately and will save the results to a .csv file.
+- The Open, High, Low, and Volume of the candles will also save to a .csv file along with the requested indicators.
+
+Additional Requirements:
+After performing the base requirements for this I want to be clear that the following requirements are also met:
+- System will need to run in a vps in order to run fast.
+- All vailable indicators in TA Lib as well as my personal custom indicators will need to be displayable and selectable by the user before the program makes any calculations
+- The indicators will then need to display any available OptionalArgumentData for the user to enter depending on the indicator selected.
+- Indicators will then need to be able to pass input candlestick data in order to function correctly.
+- This process is repeated until the user is satisfied with their selection of indicators.
+- Once the user is satisfied with the selection of indicators, the calculations will commence. Once the calculations are finished, all data needs to be neatly organized into a .csv file.
+
+For any questions please connect. Thank you.

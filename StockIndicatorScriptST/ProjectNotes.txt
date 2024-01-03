@@ -1,0 +1,10 @@
+1/1/2024 - 10:42pm
+
+Since we are no longer in need of choosing enter and end dates, make a move toward providing any available data based off the designated time period.
+
+Still need to fix multiple indicator problem.
+
+Once we get all available data for each time stamp and indicators working we can move to charting this and making it look presentable.
+
+#############################
+
