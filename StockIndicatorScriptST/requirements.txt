@@ -1,5 +1,5 @@
 numpy
-TA-Lib
+TA-Lib-binary
 yfinance
 pandas
 streamlit
